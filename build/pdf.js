@@ -8671,7 +8671,7 @@ if (typeof PDFJS === 'undefined' || !PDFJS.compatibilityChecked) {
       return;
     }
     if (isIOS) {
-      installFakeAnimationFrameFunctions();
+      // installFakeAnimationFrameFunctions();
       return;
     }
     if ('requestAnimationFrame' in window) {
